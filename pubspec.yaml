@@ -1,0 +1,17 @@
+name: dart_frog_multipart_request
+description: A helper package to parse mulitpart requests from Dart Frog requests.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  mime: ^1.0.6
+  dart_frog: ^1.1.0
+  http_parser: ^4.1.1
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
